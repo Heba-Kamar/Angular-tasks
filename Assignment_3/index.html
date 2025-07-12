@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+</head>
+<body>
+    <fieldset style="background-color:#195fdf; color: white; ">
+        <legend style="background-color: #ff5a5a;">Personal Data</legend>
+        <fieldset style="color: white; background-color: #ff5a5a;">
+            <legend style="background-color: #1d16ff; padding: 15px 0;">Your Name</legend>
+            <br><br>
+            <form action="">
+                <label for="firstn">FirstName :</label>
+                <input type="text" id="firstn" name="fname" placeholder="ex omar" required><br><br>
+                <label for="lastn">LastName :</label>
+                <input type="text" id="lastn" name="lname" placeholder="ex mokhtar" required><br><br>
+            </form>
+        </fieldset>
+        <form action="" style="white-space: pre;">
+            <br><br><br>
+<label for="phone">Your-Phone   :</label> <input type="tel" name="phone" id="phone"><br>
+<label for="email">Email            :</label> <input type="email" name="email" id="email"><br>
+<label for="pass">Password       :</label> <input type="password" name="password" id="pass" required><br>
+<label for="repass">Re-Password :</label> <input type="password" name="Re-Password" id="repass"><br>
+<br><br><br><br><br><br><br>
+<label for="address">Your Address :</label>
+<select name="address" id="address">
+    <optgroup label="Egypt">
+        <option value="cairo" selected>Cairo</option>
+        <option value="alex">Alexandra</option>
+        <option value="mansora">Mansora</option>
+    </optgroup>
+    <optgroup label="UEA">
+        <option value="abu-dhabi">Abu Dhabi</option>
+        <option value="ajman">Ajman</option>
+        <option value="sharjah">Sharjah</option>
+    </optgroup>
+    <optgroup label="Saudi Arabia">
+        <option value="riyadh">Riyadh</option>
+        <option value="jaddah">Jaddah</option>
+        <option value="dammam">Dammam</option>
+    </optgroup>
+</select><br>
+<button type="submit" style="background-color: #ff5a5a; color: white;">SUBMIT</button>
+        </form>
+    </fieldset>
+</body>
+</html>
