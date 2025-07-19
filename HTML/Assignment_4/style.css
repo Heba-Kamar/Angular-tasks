@@ -1,0 +1,102 @@
+.heading {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.line {
+    height: 2px;
+    background-color: #ccc;
+    width: 50px;
+    margin: 10px auto;
+}
+
+.contant {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.left {
+    width: 40%;
+    text-align: left;
+}
+
+.right {
+    width: 40%;
+}
+
+.about .brand, .about .web, .about .graphic, .about .dev {
+    margin-bottom: 15px;
+}
+
+.about .top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.about .top .left span, .about .top .right span {
+    display: inline-block;
+    text-align: left;
+}
+
+.about .bottom .back {
+    height: 20px;
+    background-color: #eee;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.about .presentb { background-color: #ff6b6b; width: 40%; height: 100%; }
+.about .presentw { background-color: #ff6b6b; width: 30%; height: 100%; }
+.about .presentg { background-color: #ff6b6b; width: 20%; height: 100%; }
+.about .presentd { background-color: #ff6b6b; width: 10%; height: 100%; }
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 150px;
+}
+
+.card .image img {
+    width: 150px;
+    height: 170px;
+}
+
+.card .info h3 {
+    margin: 10px 0 5px;
+    text-align: center;
+}
+
+.card .info p {
+    margin: 0;
+    text-align: center;
+    color: #666;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #fff;
+    padding: 100px 10px;
+}
+
+footer .left p {
+    margin: 0;
+}
+
+footer .right button {
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
