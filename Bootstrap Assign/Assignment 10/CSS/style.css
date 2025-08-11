@@ -1,0 +1,71 @@
+/*start nav*/
+nav {
+    background: rgba(0, 0, 0, 0.75);
+}
+/*end nav*/
+
+/* start home */
+#Home {
+    background-image: url(../imgs/intro-bg.jpg);
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+/* end home */
+
+/* start about */
+#About h2 {
+    position: relative;
+}
+#About h2::before {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: #0d6efd;
+    bottom: -5px;
+}
+/* end about */
+
+/* start services */
+.main-heading {
+    position: relative;
+}
+.main-heading::after {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #0d6efd;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.service {
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+/* end services */
+
+/* start service-info */
+.service-info {
+    background-image: url(../imgs/counters-bg.jpg);
+    background-color:  #0d6efdaa;
+    background-blend-mode: multiply;
+    background-size: 100% ;
+    height: 300px;
+}
+.service-info .container .row {
+    margin: auto;
+    box-sizing:content-box;
+}
+/* end service-info */
+
+/* start contact */
+.contact ,.per-info {
+    background-image: url(../imgs/overlay-bg.jpg);
+    background-color:  #0d6efdcc;
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+/* end contact */
